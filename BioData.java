@@ -1,9 +1,22 @@
-package biodata;
 
-public class Biodata {
+public class BioData {
 
-public static void main 
-    
+    public static void main(String[] args) {
+        System.out.println("id: 101");
+        System.out.println("title: iphone15, ");
+        System.out.println("price: 1895 euros, ");
+        System.out.println("description: perfect product with best image quality, ");
+        System.out.println("category: phone, ");
+
+        String category = "phone";
+        String brand = "Samsung";
+        int price = 200;
+
+        System.out.println("category: " + category + ", brand: " + brand + ", price: " + price);
 
 
- }
+        
+    }
+
+}
+
