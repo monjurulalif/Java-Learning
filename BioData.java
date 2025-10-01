@@ -2,12 +2,10 @@
 public class BioData {
 
     public static void main(String[] args) {
-        System.out.println("id: 101");
-        System.out.println("title: iphone15, ");
-        System.out.println("price: 1895 euros, ");
-        System.out.println("description: perfect product with best image quality, ");
-        System.out.println("category: phone, ");
-
+        System.out.println(" \"Monjurul\"");
+        System.out.println("title \t iphone15, ");
+        System.out.println("1 \t 2");
+        System.out.println("3 \t 4");
         String category = "phone";
         String brand = "Samsung";
         int price = 200;
@@ -15,7 +13,7 @@ public class BioData {
         System.out.println("category: " + category + ", brand: " + brand + ", price: " + price);
 
 
-        
+
     }
 
 }
