@@ -30,6 +30,8 @@ public class DataType {
 * step 5: print the data
  */
 
+
+/*
 public class DataType {  //Assignment 2
 
     public static void main(String[] args) {
@@ -47,7 +49,31 @@ public class DataType {  //Assignment 2
 
     }
 
+    } */
+
+public class DataType { //Format specifier
+
+    public static void main(String[] args){
+        boolean b = true;
+        char c = 'a';
+        float s = 246345.0f;
+        float i = 123456.0f;
+        float f = 323.45f;
+        double d = 12345.6;
+
+        System.out.printf("boolean b = %b\n", b);
+        System.out.printf("char c = %c\n", c);
+        System.out.printf("float s = %.2f\n", s);   
+        System.out.printf("float i = %.2f\n", i);
+        System.out.printf("float f = %.2f\n", f);
+        System.out.printf("double d = %.4f\n", d);  
     }
+}
+
+
+
+
+
 
 
 
