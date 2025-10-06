@@ -51,6 +51,8 @@ public class DataType {  //Assignment 2
 
     } */
 
+/*
+
 public class DataType { //Format specifier
 
     public static void main(String[] args){
@@ -68,17 +70,26 @@ public class DataType { //Format specifier
         System.out.printf("float f = %.2f\n", f);
         System.out.printf("double d = %.4f\n", d);  
     }
+} */
+
+
+
+import java.util.Scanner;  
+
+public class DataType {
+
+    public static void main(String[] args) {
+
+        
+        Scanner input = new Scanner(System.in);
+
+        String name;
+
+        System.out.print ("Enter your name: ");
+        name = input.nextLine();
+        System.out.println("Enter your : "+name);
+    }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
