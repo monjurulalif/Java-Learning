@@ -73,7 +73,7 @@ public class DataType { //Format specifier
 } */
 
 
-
+/*
 import java.util.Scanner;  
 
 public class DataType {
@@ -89,6 +89,53 @@ public class DataType {
         name = input.nextLine();
         System.out.println("Enter your : "+name);
     }
+} */
+
+
+
+import java.util.Scanner;
+
+public class DataType { //Product
+    public static void main(String[] args) {
+        
+        Scanner joy = new Scanner (System.in);
+        Scanner joyy = new Scanner (System.in);
+        int id,price;
+        
+        
+        System.out.print("Enter ID : ");
+        id = joy.nextInt();
+        
+        
+        
+        System.out.print("Enter Price : ");
+        price = joy.nextInt();
+        
+        
+        String title, description, catagory;
+        
+        System.out.print("Enter title : ");
+        title = joyy.nextLine();
+        
+        
+        
+        System.out.print("Enter description : ");
+       description = joyy.nextLine();
+        
+        
+        System.out.print("Enter catagory : ");
+     catagory = joyy.nextLine();
+      
+        
+        
+        
+        System.out.println("Your Id is: "+id);
+        System.out.println("Product Price is: "+price);
+        System.out.println("title is: "+title);
+        System.out.println("Product description is: "+description);
+        System.out.println("Product catagory is: "+catagory);
+    }
+    
 }
 
 
