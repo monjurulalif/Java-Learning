@@ -95,48 +95,39 @@ public class DataType {
 
 import java.util.Scanner;
 
-public class DataType { //Product
+public class DataType { //User Input
     public static void main(String[] args) {
-        
-        Scanner joy = new Scanner (System.in);
-        Scanner joyy = new Scanner (System.in);
-        int id,price;
-        
-        
-        System.out.print("Enter ID : ");
-        id = joy.nextInt();
-        
-        
-        
-        System.out.print("Enter Price : ");
-        price = joy.nextInt();
-        
-        
-        String title, description, catagory;
-        
+
+        Scanner input = new Scanner(System.in);
+
+        int id, price;
+        String title, description, category;
+
+        System.out.print("Enter id : ");
+        id = input.nextInt();
+
+        System.out.print("Enter price : ");
+        price = input.nextInt();
+
+        input.nextLine(); 
+
         System.out.print("Enter title : ");
-        title = joyy.nextLine();
-        
-        
-        
+        title = input.nextLine();
+
         System.out.print("Enter description : ");
-       description = joyy.nextLine();
-        
-        
-        System.out.print("Enter catagory : ");
-     catagory = joyy.nextLine();
-      
-        
-        
-        
-        System.out.println("Your Id is: "+id);
-        System.out.println("Product Price is: "+price);
-        System.out.println("title is: "+title);
-        System.out.println("Product description is: "+description);
-        System.out.println("Product catagory is: "+catagory);
+        description = input.nextLine();
+
+        System.out.print("Enter category : ");
+        category = input.nextLine();
+
+        System.out.println("\n--- Product Information ---");
+        System.out.println("ID          : " + id);
+        System.out.println("Price       : " + price);
+        System.out.println("Title       : " + title);
+        System.out.println("Description : " + description);
+        System.out.println("Category    : " + category);
+
+        input.close();
     }
-    
 }
-
-
 
