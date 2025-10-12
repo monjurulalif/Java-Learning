@@ -131,17 +131,41 @@ public class DataType { //User Input
     }
 } */
 
+
+/*
 public class DataType { 
     public static void main(String[] args) {
 
         int nubar1, nubar2, result;
 
-        nubar1 = 50;
+        nubar1 = 200;
         nubar2 = 100;
 
         result = nubar1 + nubar2;
         System.out.println("sum = " + result);
 
     }
+} */
+
+
+
+import java.util.Scanner; 
+
+public class DataType {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Number of installments: ");
+        int numberOfInstallment = sc.nextInt();
+
+        int phonePrice = 1800;
+        int installmentPerMonth = phonePrice / numberOfInstallment;
+
+        System.out.println("Monthly installment amount: " + installmentPerMonth + " euros");
+
+        sc.close(); 
+    }
 }
+
+
 
