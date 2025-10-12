@@ -92,7 +92,7 @@ public class DataType {
 } */
 
 
-
+/*
 import java.util.Scanner;
 
 public class DataType { //User Input
@@ -129,5 +129,35 @@ public class DataType { //User Input
 
         input.close();
     }
+} */
+
+public class DataType { 
+    public static void main(String[] args) {
+
+        int nubar1, nubar2, result;
+
+        nubar1 = 50;
+        nubar2 = 100;
+
+        result = nubar1 + nubar2;
+        System.out.println("sum = " + result);
+
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
